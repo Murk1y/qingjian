@@ -138,7 +138,10 @@
     </style>
 </head>
 <body>
-
+    <div style="position:absolute; top:0; left:0; width:0; height:0; overflow:hidden; z-index:-1;">
+        <img src="https://你的图片链接/cover.jpg" width="400" height="400" alt="icon">
+    </div>
+    <div class="music-btn" id="musicBtn">...</div>
     <div class="music-btn" id="musicBtn">♫</div>
     <audio id="bgMusic" loop src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"></audio>
 
@@ -216,4 +219,5 @@
         }, {once:true});
     </script>
 </body>
+
 </html>
